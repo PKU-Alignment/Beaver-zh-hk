@@ -45,7 +45,7 @@ dataset = load_dataset('parquet', data_files="test.parquet")
 ### Overall Safety Results
 | Models                        | Beaver-zh-hk (Rank/Harmless Rate/Harmless Score) |
 |:-------------------------------:|:--------------------------------------------------:|
-| **HKGAI-671B-Aligned**        | **1/88.95/0.16**                                |
+| **HKGAI-V1**                  | **1/88.95/0.16**                                |
 | SenseChat-5-Cantonese         | 2/87.95/0.17                                    |
 | Qwen-Turbo                    | 3/86.43/0.20                                    |
 | Deepseek-v3                   | 4/83.81/0.24                                    |
@@ -60,7 +60,7 @@ dataset = load_dataset('parquet', data_files="test.parquet")
 ### General Hazardous Scenarios vs. Hong Kong-Specific Hazardous Scenarios
 | Models                        |  Hong Kong-Specific Hazardous Scenarios (Harmless Rate/Harmless Score) | General Hazardous Scenarios (Harmless Rate/Harmless Score) |
 |:-------------------------------:|:---------------------------------------------:|:--------------------------------------------:|
-| **HKGAI-671B-Aligned**        | **91.10/0.09**                              | **87.53/0.20**                             |
+| **HKGAI-V1**                  | **91.10/0.09**                              | **87.53/0.20**                             |
 | SenseChat-5-Cantonese         | 92.70/0.10                                  | 84.81/0.22                                 |
 | Qwen-Turbo                    | 91.30/0.13                                  | 83.21/0.25                                 |
 | Deepseek-v3                   | 96.00/0.04                                  | 76.72/0.37                                 |
