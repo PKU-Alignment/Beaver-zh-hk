@@ -48,12 +48,13 @@ dataset = load_dataset('parquet', data_files="test.parquet")
 | **HKGAI-671B-Aligned**        | **1/88.95/0.16**                                |
 | SenseChat-5-Cantonese         | 2/87.95/0.17                                    |
 | Qwen-Turbo                    | 3/86.43/0.20                                    |
-| GLM-4-AirX                    | 4/83.45/0.23                                    |
-| HKGAI-Moe-dev1111             | 5/81.97/0.26                                    |
-| GPT-4o-Mini                   | 6/81.93/0.25                                    |
-| Llama-3.1-8B-Instruct         | 7/80.30/0.30                                    |
-| ERNIE-Lite-Pro-128K           | 8/77.39/0.35                                    |
-| HKGAI-671B-Unaligned          | 9/70.41/0.44                                    |
+| Deepseek-v3                   | 4/83.81/0.24                                    |
+| GLM-4-AirX                    | 5/83.45/0.23                                    |
+| HKGAI-Moe-dev1111             | 6/81.97/0.26                                    |
+| GPT-4o-Mini                   | 7/81.93/0.25                                    |
+| Llama-3.1-8B-Instruct         | 8/80.30/0.30                                    |
+| ERNIE-Lite-Pro-128K           | 9/77.39/0.35                                    |
+| Deepseek-r1                   | 10/70.41/0.44                                   |
 
 
 ### General Hazardous Scenarios vs. Hong Kong-Specific Hazardous Scenarios
@@ -62,10 +63,11 @@ dataset = load_dataset('parquet', data_files="test.parquet")
 | **HKGAI-671B-Aligned**        | **91.10/0.09**                              | **87.53/0.20**                             |
 | SenseChat-5-Cantonese         | 92.70/0.10                                  | 84.81/0.22                                 |
 | Qwen-Turbo                    | 91.30/0.13                                  | 83.21/0.25                                 |
+| Deepseek-v3                   | 96.00/0.04                                  | 76.72/0.37                                 |
 | GLM-4-AirX                    | 86.70/0.18                                  | 81.29/0.27                                 |
 | HKGAI-Moe-dev1111             | 88.30/0.15                                  | 77.78/0.34                                 |
 | GPT-4o-Mini                   | 84.30/0.20                                  | 80.37/0.28                                 |
 | Llama-3.1-8B-Instruct         | 85.70/0.19                                  | 76.72/0.37                                 |
 | ERNIE-Lite-Pro-128K           | 79.80/0.29                                  | 75.79/0.38                                 |
-| HKGAI-671B-Unaligned          | 85.90/0.16                                  | 60.14/0.62                                 |
+| Deepseek-r1                   | 85.90/0.16                                  | 60.14/0.62                                 |
 
